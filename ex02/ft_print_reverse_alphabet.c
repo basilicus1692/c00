@@ -6,7 +6,7 @@
 /*   By: wwilliam <wwilliam@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/20 17:02:07 by wwilliam          #+#    #+#             */
-/*   Updated: 2025/05/20 17:02:11 by wwilliam         ###   ########.fr       */
+/*   Updated: 2025/05/21 12:10:28 by wwilliam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,12 +15,17 @@
 
 void	ft_print_reverse_alphabet(void)
 {
-	char counter;
+	char reverse;
 
-	counter = 'z';
-	while (counter >= 'a')
+	reverse = 'z';
+	while (reverse >= 'a')
 	{
-		write(1, &counter, 1);
-		counter--;
+		write(1, &reverse, 1);
+		reverse--;
 	}
 }
+
+// int main (void)
+// {
+// 	ft_print_reverse_alphabet()
+// }
