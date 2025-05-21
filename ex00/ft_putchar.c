@@ -6,7 +6,7 @@
 /*   By: wwilliam <wwilliam@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/20 17:01:30 by wwilliam          #+#    #+#             */
-/*   Updated: 2025/05/21 15:49:53 by wwilliam         ###   ########.fr       */
+/*   Updated: 2025/05/21 18:17:01 by wwilliam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,5 +20,5 @@ void	ft_putchar(char c)
 
 // int main (void)
 // {
-// 	ft_putchar();
+// 	ft_putchar('a');
 // }
