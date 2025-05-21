@@ -6,10 +6,9 @@
 /*   By: wwilliam <wwilliam@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/20 17:01:30 by wwilliam          #+#    #+#             */
-/*   Updated: 2025/05/21 18:17:01 by wwilliam         ###   ########.fr       */
+/*   Updated: 2025/05/21 20:10:04 by wwilliam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include <unistd.h>
 
@@ -18,7 +17,7 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-// int main (void)
+// int	main(void)
 // {
-// 	ft_putchar('a');
+// 	ft_putchar('s');
 // }

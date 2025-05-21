@@ -6,16 +6,15 @@
 /*   By: wwilliam <wwilliam@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/20 17:02:07 by wwilliam          #+#    #+#             */
-/*   Updated: 2025/05/21 12:10:28 by wwilliam         ###   ########.fr       */
+/*   Updated: 2025/05/21 19:58:23 by wwilliam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include <unistd.h>
 
 void	ft_print_reverse_alphabet(void)
 {
-	char reverse;
+	char	reverse;
 
 	reverse = 'z';
 	while (reverse >= 'a')
@@ -25,7 +24,7 @@ void	ft_print_reverse_alphabet(void)
 	}
 }
 
-// int main (void)
+// int	main(void)
 // {
-// 	ft_print_reverse_alphabet()
+// 	ft_print_reverse_alphabet();
 // }

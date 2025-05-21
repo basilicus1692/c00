@@ -5,27 +5,27 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: wwilliam <wwilliam@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/21 12:13:03 by wwilliam          #+#    #+#             */
-/*   Updated: 2025/05/21 13:36:46 by wwilliam         ###   ########.fr       */
+/*   Created: 2025/05/21 19:43:48 by wwilliam          #+#    #+#             */
+/*   Updated: 2025/05/21 20:00:57 by wwilliam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
 
-#include<unistd.h>
-
-void    ft_print_numbers (void)
+void	ft_print_numbers(void)
 {
-    char    number;
+	char	number;
 
-    number = '0';
-    while (number <= '9')
-    {
-        putchar (number);
-        number++;
-    }
+	number = '0';
+	while (number <= '9')
+	{
+		putchar (number);
+		number++;
+	}
 }
 
-// int main (void)
+// int	main(void)
 // {
-//     ft_print_numbers();
+// 	ft_print_numbers();
+// 	return (0);
 // }

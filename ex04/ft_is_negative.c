@@ -6,27 +6,28 @@
 /*   By: wwilliam <wwilliam@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/21 13:38:35 by wwilliam          #+#    #+#             */
-/*   Updated: 2025/05/21 18:53:17 by wwilliam         ###   ########.fr       */
+/*   Updated: 2025/05/21 20:10:10 by wwilliam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
 
-#include<stdio.h>
-
-void ft_is_negative(int n)
+void	ft_is_negative(int n)
 {
-    if (n<0)
-    {
-        write(1, "N" ,1);
-    }
-    else
-    {
-        write(1, "P" ,1);
-    }
+	if (n < 0)
+	{
+		write(1, "N", 1);
+	}
+	else
+	{
+		write(1, "P", 1);
+	}
 }
 
-// int main (void)
+// int	main(void)
 // {
-//     char n = 0 ;
-//     ft_is_negative(n);
+// 	char	n;
+
+// 	n = '0';
+// 	ft_is_negative(n);
 // }
