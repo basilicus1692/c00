@@ -6,7 +6,7 @@
 /*   By: wwilliam <wwilliam@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/21 13:38:35 by wwilliam          #+#    #+#             */
-/*   Updated: 2025/05/21 20:10:10 by wwilliam         ###   ########.fr       */
+/*   Updated: 2025/05/22 10:31:54 by wwilliam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,10 +24,10 @@ void	ft_is_negative(int n)
 	}
 }
 
-// int	main(void)
-// {
-// 	char	n;
+int	main(void)
+{
+	char	n;
 
-// 	n = '0';
-// 	ft_is_negative(n);
-// }
+	n = 15.9 ;
+	ft_is_negative(n);
+}
